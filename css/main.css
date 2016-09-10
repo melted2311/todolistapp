@@ -1,0 +1,11 @@
+body {
+	text-align: center;
+	background-image: url('http://blog.hostbaby.com/wp-content/uploads/2014/03/GreyPolygons_1400x900-1024x658.jpg');
+}
+
+.todoList {
+	color: #1B3EFF;
+	text-align: center;
+	font-size: 20px;
+	list-style-type:none;
+}

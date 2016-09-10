@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do List App</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+
+<body>
+<div>
+<h1>To Do List App</h1>
+
+<form id="todoForm">
+
+	<div>
+	<input id="todoInput" class="form-control" align="middle" placeholder="Enter to do list here">
+	</div>
+
+	<div>
+	<button type="button" onclick="todoList()" class="btn btn-success btn-lg"><b>Add to List</b></button>
+	</div>
+</form>
+	</div>
+
+<script>
+	var utc = new Date().toJSON().slice(0,10);
+document.write(utc);
+</script>
+
+	<ol id="todoList" style="list-style-type:none; font-size:20px;"></ol>
+
+
+
+
+
+
+	<script src="js/main.js"></script>
+</body>
+</html>
